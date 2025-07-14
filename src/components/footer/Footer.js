@@ -13,9 +13,16 @@ export default function Footer() {
           {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+<<<<<<< HEAD
           <a
             href=""
             target=""
+=======
+          
+          <a
+            href=""
+            target="k"
+>>>>>>> 833b5b493d1a1cce2a7a8d05c1749998104ecd31
             rel=""
           >
             
