@@ -254,13 +254,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-<<<<<<< HEAD
   number: "",
-  email_address: "jdang9191@gmail.com"
-=======
-  number: "+92-0000000000",
-  email_address: "jonathandang9191@gmail.com"
->>>>>>> 833b5b493d1a1cce2a7a8d05c1749998104ecd31
+  email_address: "jdang9191+portfolio@gmail.com"
 };
 
 // Twitter Section
