@@ -45,12 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate data analyst looking to use data to drive informed decision making",
+  subTitle:
+    "Passionate data analyst looking to use data to drive informed decision making",
   skills: [
     emoji(
       "⚡ Analyze and interpret complex datasets to extract actionable insights and support business decisions"
     ),
-    emoji("⚡ Build interactive dashboards and reports using tools like Tableau and SQL"),
+    emoji(
+      "⚡ Build interactive dashboards and reports using tools like Tableau and SQL"
+    ),
     emoji(
       "⚡ Design ETL pipelines for cleaning, transforming, and loading data from multiple sources"
     )
@@ -60,8 +63,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-<<<<<<< HEAD
-
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -70,8 +71,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-=======
->>>>>>> 833b5b493d1a1cce2a7a8d05c1749998104ecd31
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -88,7 +87,8 @@ const educationInfo = {
     {
       schoolName: "California State Polytechnic University, Pomona",
       logo: require("./assets/images/cpp.png"),
-      subHeader: "Bachelor of Science in Computer Science, Minor in Data Science",
+      subHeader:
+        "Bachelor of Science in Computer Science, Minor in Data Science",
       duration: "August 2023 - Current",
       desc: "Taking courses like Big Data Analytics, Cloud Computing, Database Programming, and Machine Learning.",
       descBullets: ["MISSA Data Analytics Team", "EPIC Movement"]
@@ -131,7 +131,7 @@ const workExperiences = {
         "Built a real-time Malfunction Indicator Lamp detection system for heavy duty vehicles using a Random Forest model",
         "Developed DBT models using SQL to clean, transform, and join emissions and air resources data"
       ]
-    },
+    }
   ]
 };
 
@@ -160,7 +160,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -174,8 +174,6 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-
-
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -197,15 +195,14 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "",
+  subtitle: "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "e",
       title: "",
-      description:
-          ""    },
+      description: ""
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -214,9 +211,7 @@ const blogSection = {
 
 const talkSection = {
   title: "",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
@@ -236,9 +231,7 @@ const podcastSection = {
   subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -268,7 +261,22 @@ const twitterDetails = {
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, resumeSection, skillsSection, socialMediaLinks,
-  splashScreen, talkSection, techStack, twitterDetails, workExperiences
+  achievementSection,
+  bigProjects,
+  blogSection,
+  contactInfo,
+  educationInfo,
+  greeting,
+  illustration,
+  isHireable,
+  openSource,
+  podcastSection,
+  resumeSection,
+  skillsSection,
+  socialMediaLinks,
+  splashScreen,
+  talkSection,
+  techStack,
+  twitterDetails,
+  workExperiences
 };
-

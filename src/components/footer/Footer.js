@@ -1,6 +1,6 @@
-import { useContext } from "react";
+import {useContext} from "react";
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import "./Footer.scss";
 
@@ -13,13 +13,7 @@ export default function Footer() {
           {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          <a
-            href=""
-            target=""
-            rel=""
-          >
-            
-          </a>
+          <a href="" target="" rel=""></a>
         </p>
       </div>
     </Fade>

@@ -1,4 +1,4 @@
-import { socialMediaLinks } from "../../portfolio";
+import {socialMediaLinks} from "../../portfolio";
 import "./SocialMedia.scss";
 
 export default function socialMedia() {
@@ -42,9 +42,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
-
-
     </div>
   );
 }

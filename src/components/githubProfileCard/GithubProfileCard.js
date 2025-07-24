@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { contactInfo, isHireable } from "../../portfolio";
+import {contactInfo, isHireable} from "../../portfolio";
 import "./GithubProfileCard.scss";
 
 export default function GithubProfileCard({prof}) {
